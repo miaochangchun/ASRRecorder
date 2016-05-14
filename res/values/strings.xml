@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hcicloudttsexample"></string>
+    <string name="beginrecog">开始识别</string>
+    <string name="app_name">AndroidHciCloudAsrRecorderExample</string>
+	<string name="state">状态：</string>
+	<string name="result">识别结果：</string>
+	<string name="error">错误信息：</string>
+	<string name="recog_real_time_mode">实时识别</string>
+	<string name="grammar_text">语法文件</string>
+	<string name="grammar_seperator">" | "</string>
+	<string name="show_error_code_is">错误码为：</string>
+</resources>

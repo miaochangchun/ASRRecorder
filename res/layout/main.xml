@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="6dip"
+     >
+
+    <TextView
+        android:id="@+id/logview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hcicloudttsexample" />
+    <Spinner 
+        android:id="@+id/mySpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	<Button 
+	    android:id="@+id/beginrecog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:text="@string/beginrecog"/>
+	
+	<Button
+	    android:id="@+id/begin_recog_real_time_mode"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:enabled="false"
+	    android:text="@string/recog_real_time_mode" >
+
+</Button>
+	
+	<TextView
+        android:id="@+id/stateview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/state" />
+	
+	<TextView
+        android:id="@+id/resultview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result" />
+	<TextView
+        android:id="@+id/errorview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/error" />
+	
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/grammar_text"
+	    ></TextView>
+	
+	<ListView 
+	    android:id="@+id/grammar_list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dip"
+	    android:layout_margin="3dip"
+	    />
+</LinearLayout>
